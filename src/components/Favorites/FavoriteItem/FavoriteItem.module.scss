@@ -1,0 +1,84 @@
+.icon {
+  svg,
+  svg:hover {
+    fill: var(--mui-palette-primary-contrastText);
+  }
+}
+.card {
+  display: flex;
+  width: 70%;
+  height: 200px;
+  padding: 16px;
+  margin-bottom: 16px;
+  .content {
+    width: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    .title {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      .privacy {
+        margin-left: 8px;
+      }
+    }
+    .description {
+      width: 500px;
+      height: 200px;
+      text-align: left;
+      padding: 8px 0px;
+    }
+    .detailsBox {
+      display: inline-flex;
+      justify-content: flex-start;
+      .details {
+        display: inline-flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0px 8px;
+        a {
+          svg:hover {
+            fill: var(--mui-palette-primary-main);
+          }
+        }
+        svg {
+          margin: 0px 4px;
+        }
+      }
+    }
+  }
+  .actions {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    padding: 16px;
+
+    &-remove {
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.language {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--mui-palette-primary-contrastText);
+}
+.rating {
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

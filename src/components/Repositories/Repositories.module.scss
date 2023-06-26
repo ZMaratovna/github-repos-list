@@ -1,0 +1,29 @@
+.wrapper {
+  max-width: 100vw;
+  width: 100%;
+  .inner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  .favorites {
+      color: var(--mui-palette-primary-contrastText);
+      outline: none;
+    }
+  }
+}
+.container {
+  margin-top: 12px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--mui-palette-primary-faded);
+}
+.infinite-scroll {
+  width: 100%;
+}
