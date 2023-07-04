@@ -9,7 +9,14 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/ZMaratovna/custom-components-library.git"
+    }
+  ],
   "dependencies": {
+    "@zmaratovna/custom-components-library": "0.0.2",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.11.16",
